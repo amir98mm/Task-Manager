@@ -5,8 +5,8 @@ The program stores the tasks in a file called tasks.txt and automatically loads 
 
 The task manager is implemented in C++ and uses object-oriented programming concepts. It demonstrates the use of classes, objects, and file I/O in C++.
 
-Usage
+##Usage
 To use the task manager, simply run the program in a terminal or command prompt. The program will display a menu with options for adding, removing, printing, and changing the status of tasks. Follow the prompts to perform each action.
 
-License
+##License
 This project is licensed under the MIT License. Feel free to modify and use the code as you see fit.
