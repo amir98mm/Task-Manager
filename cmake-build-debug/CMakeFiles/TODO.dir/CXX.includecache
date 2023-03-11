@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/Desktop/TODO/Task.cpp
+task.h
+C:/Users/User/Desktop/TODO/task.h
+iostream
+-
+
+C:/Users/User/Desktop/TODO/Task.h
+string
+-
+
+C:/Users/User/Desktop/TODO/TaskManager.cpp
+TaskManager.h
+C:/Users/User/Desktop/TODO/TaskManager.h
+iostream
+C:/Users/User/Desktop/TODO/iostream
+fstream
+C:/Users/User/Desktop/TODO/fstream
+sstream
+C:/Users/User/Desktop/TODO/sstream
+iomanip
+C:/Users/User/Desktop/TODO/iomanip
+
+C:/Users/User/Desktop/TODO/TaskManager.h
+vector
+-
+Task.h
+C:/Users/User/Desktop/TODO/Task.h
+
+C:/Users/User/Desktop/TODO/main.cpp
+iostream
+-
+TaskManager.h
+C:/Users/User/Desktop/TODO/TaskManager.h
+
+C:/Users/User/Desktop/TODO/task.h
+string
+-
+
