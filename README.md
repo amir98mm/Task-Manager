@@ -25,11 +25,11 @@ Task Manager requires the following to be installed on your system:
 This project is licensed under the MIT License. Feel free to modify and use the code as you see fit.
 
 # Examples
-## simple and easy way to show your tasks
+### simple and easy way to show your tasks
 ![image](https://user-images.githubusercontent.com/75622732/224516307-e77aaaab-8289-4639-8294-8b31c85fe419.png)
-## update your status
+### update your status
 ![image](https://user-images.githubusercontent.com/75622732/224516342-b86ec18b-7da1-4f0e-a807-9ef95ce197b8.png)
-## sort by the field you want 
+### sort by the field you want 
 ![image](https://user-images.githubusercontent.com/75622732/224516867-d057e7f7-edd0-44cd-8b8f-ef980885ab44.png)
 
 
