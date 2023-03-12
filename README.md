@@ -2,7 +2,7 @@
 Task Manager is a simple console-based application that allows users to manage their tasks. It was developed as a learning project by Amir Mahamid.
 
 # Description
-The program is a console-based task manager that allows users to manage their tasks through a simple menu interface. Users can add new tasks, remove existing ones, print all tasks, sort tasks by fields, and change the status of a task.
+The program allows users to manage their tasks through a simple menu interface. Users can add new tasks, remove existing ones, print all tasks, sort tasks by fields, and change the status of a task.
 
 The task manager is implemented in C++ and uses object-oriented programming concepts. It demonstrates the use of classes, objects, and file I/O in C++.
 
