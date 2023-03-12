@@ -19,14 +19,16 @@ string
 C:/Users/User/Desktop/TODO/TaskManager.cpp
 TaskManager.h
 C:/Users/User/Desktop/TODO/TaskManager.h
-iostream
-C:/Users/User/Desktop/TODO/iostream
 fstream
 C:/Users/User/Desktop/TODO/fstream
 sstream
 C:/Users/User/Desktop/TODO/sstream
+iostream
+C:/Users/User/Desktop/TODO/iostream
 iomanip
 C:/Users/User/Desktop/TODO/iomanip
+algorithm
+C:/Users/User/Desktop/TODO/algorithm
 
 C:/Users/User/Desktop/TODO/TaskManager.h
 vector

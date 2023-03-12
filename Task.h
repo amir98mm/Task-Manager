@@ -7,7 +7,8 @@ public:
     enum class Status {
         ToDo,
         InProgress,
-        Done
+        Done,
+        Unkown
     };
 
     Task() = default;

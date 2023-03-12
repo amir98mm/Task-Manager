@@ -3,10 +3,11 @@
 //
 
 #include "TaskManager.h"
-#include "iostream"
 #include "fstream"
 #include "sstream"
+#include "iostream"
 #include "iomanip"
+#include "algorithm"
 using std::cout;
 using std::endl;
 using std::setw;
@@ -36,6 +37,7 @@ static std::string TaskStatusToString(Task::Status status) {
         case Task::Status::Done:
             return "Done";
     }
+    return "Unknown";
 }
 
 void TaskManager::getAllTasks() {
@@ -83,6 +85,7 @@ static Task::Status TaskStatusFromString(const std::string& str) {
     } else if (str == "DONE") {
         return Task::Status::Done;
     }
+    return Task::Status::Unkown;
 }
 
 
@@ -120,6 +123,35 @@ std::vector<Task> TaskManager::loadTasksFromFile(const string& filename) {
 void TaskManager::changeTaskStatus(int index, Task::Status status) {
     tasks[index].setStatus(status);
 }
+
+void TaskManager::sortTasks(const SortOption sortBy) {
+    switch (sortBy) {
+        case NAME:
+            sort(tasks.begin(), tasks.end(), [](const Task& a, const Task& b) {
+                return a.getName() < b.getName();
+            });
+            break;
+        case PRIORITY:
+            sort(tasks.begin(), tasks.end(), [](const Task& a, const Task& b) {
+                return a.getPriority() < b.getPriority();
+            });
+            break;
+        case DUEDATE:
+            sort(tasks.begin(), tasks.end(), [](const Task& a, const Task& b) {
+                return a.getDueDate() < b.getDueDate();
+            });
+            break;
+        case STATUS:
+            sort(tasks.begin(), tasks.end(), [](const Task& a, const Task& b) {
+                return a.getStatus() < b.getStatus();
+            });
+            break;
+        default:
+            cout << "Invalid sort option." << endl;
+            break;
+    }
+}
+
 
 
 

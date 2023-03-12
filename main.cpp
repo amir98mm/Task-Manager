@@ -11,6 +11,7 @@ void printMenu() {
     cout << "2. Remove task" << endl;
     cout << "3. Print tasks" << endl;
     cout << "4. Change status" << endl;
+    cout << "5. Sort tasks" << endl;
     cout << "0. Exit" << endl;
     cout << "Enter option number: ";
 }
@@ -19,7 +20,7 @@ int main() {
     TaskManager taskManager;
 
     // Load tasks from file
-    taskManager.loadTasksFromFile("../tasks.txt");
+    taskManager.loadTasksFromFile("./tasks.txt");
 
     // Main loop
     int option = -1;
@@ -102,6 +103,15 @@ int main() {
                 cout << "Task status changed successfully." << endl;
                 break;
             }
+            case 5:{
+                int sortOption;
+                cout << "Enter sort option (0:none, 1:name, 2:priority, 3:duedate, 4:status): ";
+                cin >> sortOption;
+                cin.ignore();
+                taskManager.sortTasks(static_cast<TaskManager::SortOption>(sortOption));
+                cout << "Tasks sorted successfully." << endl;
+                break;
+            }
             case 0: { // Exit
                 cout << "Exiting Task Manager..." << endl;
                 break;
@@ -115,7 +125,7 @@ int main() {
     }
 
     // Save tasks to file before exiting
-    taskManager.saveTasksToFile("../tasks.txt");
+    taskManager.saveTasksToFile("./tasks.txt");
 
     return 0;
 }
