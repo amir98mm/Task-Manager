@@ -8,7 +8,7 @@ The task manager is implemented in C++ and uses object-oriented programming conc
 
 # Features
 - Add a new task with a name, description, priority, due date, and status
-- Remove an existing task by its name
+- Remove an existing task
 - Print all tasks or only those with a certain status
 - Change the status of a task
 - Sort tasks by name, priority, due date, or status
