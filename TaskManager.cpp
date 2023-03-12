@@ -78,11 +78,11 @@ void TaskManager::saveTasksToFile(string filename) {
 }
 
 static Task::Status TaskStatusFromString(const std::string& str) {
-    if (str == "TODO") {
+    if (str == "To Do") {
         return Task::Status::ToDo;
-    } else if (str == "IN PROGRESS") {
+    } else if (str == "In Progress") {
         return Task::Status::InProgress;
-    } else if (str == "DONE") {
+    } else if (str == "Done") {
         return Task::Status::Done;
     }
     return Task::Status::Unkown;

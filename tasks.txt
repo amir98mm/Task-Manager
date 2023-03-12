@@ -1,4 +1,4 @@
-"Read"@"New book read"@"2"@"2/2/23"@"Unknown"
-"Workout"@"Biceps"@"3"@"12/12/12"@"Unknown"
-"Shopping"@"Milk, Apple juice"@"4"@"1/1/23"@"Unknown"
-"Study"@"Data Structures"@"5"@"20/12/22"@"Unknown"
+"Read"@"New book read"@"2"@"2/2/23"@"To Do"
+"Workout"@"Biceps"@"3"@"12/12/12"@"In Progress"
+"Shopping"@"Milk, Apple juice"@"4"@"1/1/23"@"In Progress"
+"Study"@"Data Structures"@"5"@"20/12/22"@"In Progress"
