@@ -1,4 +1,5 @@
 # Task-Manager
+A website that includes registration, updating profile, showing products and adding to your cart etc..
 Task Manager is a simple console-based application that allows users to manage their tasks. It was developed as a learning project by Amir Mahamid.
 
 # Description
