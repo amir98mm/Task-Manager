@@ -14,7 +14,7 @@ The task manager is implemented in C++ and uses object-oriented programming conc
 - Sort tasks by name, priority, due date, or status
 
 # Usage
-To use Task Manager, simply run the task-manager executable generated in the build directory. The application will present a menu with various options to manage your tasks.
+To use Task Manager, simply run the taskmanager executable generated in the main directory. The application will present a menu with various options to manage your tasks.
 
 # Requirements
 Task Manager requires the following to be installed on your system:
