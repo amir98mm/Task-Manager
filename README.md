@@ -1,5 +1,5 @@
 # Task-Manager
-Task Manager is a simple console-based application that allows users to manage their tasks.
+Task Manager is a console-based application that allows users to manage their tasks.
 
 It was developed as a learning project by Amir Mahamid.
 
